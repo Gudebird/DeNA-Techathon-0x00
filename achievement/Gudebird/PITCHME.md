@@ -6,7 +6,19 @@
 - 東野圭吾ファン歴10年以上の私が、あなたにおすすめの東野圭吾原作映画を選びます。<( ￣ ≧￣)> ｴｯﾍﾝ!!
 ---
 ```
-ask1 = input("ミステリーが好きですか？")if ask1 == "yes" or ask1 == "y":    ask2 = input("数学が好きですか？")    if ask2 == "yes" or ask1 == "y":        print("★あなたにおすすめの東野圭吾原作映画は「容疑者Xの献身」★")    elif ask2 == "no" or ask2 == "n":        print("★あなたにおすすめの東野圭吾原作映画は「祈りの幕が下りるとき」★")elif ask1 == "no" or ask1 == "n":    ask3 = input("家族愛の話が好きですか？")    if ask3 == "yes" or ask3 == "y":        print("★あなたにおすすめの東野圭吾原作映画は「手紙」★")    elif ask3 == "no" or ask3 == "n":        print("★あなたにおすすめの東野圭吾原作映画は「白夜行」★")
+ask1 = input("ミステリーが好きですか？")
+if ask1 == "yes" or ask1 == "y":    
+    ask2 = input("数学が好きですか？")
+    if ask2 == "yes" or ask1 == "y":
+        print("★あなたにおすすめの東野圭吾原作映画は「容疑者Xの献身」★")
+    elif ask2 == "no" or ask2 == "n": 
+        print("★あなたにおすすめの東野圭吾原作映画は「祈りの幕が下りるとき」★")
+elif ask1 == "no" or ask1 == "n":
+    ask3 = input("家族愛の話が好きですか？")
+    if ask3 == "yes" or ask3 == "y":
+        print("★あなたにおすすめの東野圭吾原作映画は「手紙」★")
+    elif ask3 == "no" or ask3 == "n":
+        print("★あなたにおすすめの東野圭吾原作映画は「白夜行」★")
 ```
 ---
 ## シンプルにif文を使って作りました。
